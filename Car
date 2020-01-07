@@ -1,0 +1,25 @@
+package L5p4;
+
+
+
+
+public class Car {
+	String type;
+	String color;
+	String speed;
+	public Car(String type, String color) {
+		this.type=type;
+		this.color=color;
+		this.speed=speed;
+	}
+	public Car(String type, String color, String speed) {
+		this(type, color);
+		this.speed=speed;
+		
+	}
+	@Override
+	public String toString() {
+		return "Car [type=" + type + ", color=" + color + ", speed=" + speed + "]";
+	}
+	
+}
