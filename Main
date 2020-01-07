@@ -1,0 +1,8 @@
+package L5p4;
+
+public class Main {
+	public static void main(String[] args) {
+		Car Supra=new Car("Sport","Black","Fast");
+		System.out.println(Supra.toString());
+	}
+}
